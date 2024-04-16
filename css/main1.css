@@ -1,0 +1,553 @@
+body{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-left: 230px;
+    margin-right: 230px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.logo-img{
+    width: auto;
+}
+.login-img{
+    width: 50px;
+}
+.korz-img{
+    width: 50px;
+}
+.korz-text{
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+.login-text{
+    text-decoration: none;
+    color: black;
+}
+.header-line{
+    background-color: rgb(112, 245, 194);
+    padding: 10px 400px;
+}
+.line-text{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding-right: 5px;
+    font-weight: 700;
+    transition: color 0.3s linear;
+}
+.gazz-img{
+    width: 100%;
+}
+.line-text:hover{
+    color: rgb(0, 0, 0);
+}
+.tovari{
+    height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tovari-text{
+    margin: 0;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: 20px;
+}
+.mini-katalog{
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.katalog-img{
+    margin: 0;
+    margin-right: 15px;
+}
+.katalog-txt{
+    height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.text-katalog{
+    margin: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.korzina-button{
+    height: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.korzina-money{
+    margin: 0;
+    margin-left: 15px;
+    margin-right: 95px;
+}
+.btn{
+    margin: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: rgb(194, 63, 211);
+    color: rgb(114, 77, 77);
+    padding: 5px;
+}
+.btn:hover{
+    background-color: rgb(86, 110, 175)
+}
+.forma01{
+    margin-top: 25px;
+    height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form1txt{
+    font-weight: bold;
+}
+.forma02{
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    margin-bottom: 10px;
+}
+.form__input{
+    padding: 5px;
+}
+.forma03{
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.forma04{
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.forma05{
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form5txt{
+    font-size: smaller;
+}
+.forma6{
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.podfooter{
+    margin-left: 180px;
+}
+.podtext{
+    font-weight: bold;
+    font-size: 20px;
+}
+.podfooter-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.podfooter01{
+    margin-left: 180px;
+}
+.podfooter02{
+    margin-top: 30px;
+    margin-left: 180px;
+}
+.podtext2{
+    font-size: 14px;
+}
+.podfooter03{
+    margin-top: 10px;
+    margin-left: 250px;
+}
+.podtext03{
+    font-size: 14px;
+}
+.podfooter-img-img{
+    margin-left: 60px;
+}
+.footer{
+    margin-top: 40px;
+    background-color: rgb(85, 255, 204);
+    padding-bottom: 70px;
+}
+.navigation{
+    padding-top: 30px;
+}
+.nav01{
+    margin-left: 170px;
+color: rgb(5, 156, 30);
+font-weight: bolder;
+border-right: 1px solid rgb(68, 22, 22);
+height: 7px;
+padding-right: 180px;
+}
+.nav02{
+    margin-left: 90px;
+    margin-right: 100px;
+    color: rgb(238, 116, 116);
+    font-weight: bolder;  
+}
+.menu1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-txt{
+    text-decoration: none;
+    color: rgb(163, 175, 131);
+    margin-left: 30px;
+    padding-right: 10px;
+}
+.menu-txt1{
+    padding-left: 250px;
+    padding-right: 200px;
+}
+.menu2{
+    display: flex;
+    margin-left: 140px;
+}
+.menu-txt2{
+    text-decoration: none;
+    color: rgb(11, 34, 133);
+    margin-left: 30px;
+    padding-right: 10px;
+}
+.menu-txt3{
+    padding-left: 250px;
+    padding-right: 200px;
+}
+.menu-txt4{
+    font-size: 10px;
+}
+.podval{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 170px;
+}
+.podval-img{
+    padding-left: 10px;
+}
+.podval-text{
+    margin-right: 20px;
+}
+.form-search {
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+    box-shadow: 0 0 1px 1px rgba(000, 000, 000, 1);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .form-search input {
+    all: unset;
+  }
+
+
+
+.okompaniitxt1{
+    margin-top: 20px;
+}
+.okompaniitext{
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 240px;
+}
+.okompaniitext2{
+    font-size: 13px;
+}
+.okompaniitxt2{
+    margin-top: 10px;
+    margin-left: 240px;
+    content: "";
+    display: table;
+    clear: both;
+}
+.okompaniitxt3{
+    margin-top: 10px;
+    margin-left: 240px;
+}
+.okompaniitext3{
+    margin-left: 10px;
+    font-size: 13px;
+    font-weight: 500;
+}
+  .text {
+    float: left;
+    width: 50%;
+  }
+  
+  .images {
+    float: left;
+    width: 50%;
+  }
+  .kontakti-text{
+    margin-left: 240px;
+margin-top: 20px;
+  }
+  .txtkontakt{
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .txtkontakt2{
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .kontakti-text2{
+    margin-left: 240px;
+margin-top: 20px;
+  }
+  .txtkontakt3{
+    padding-left: 400px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .txtkontakt03{
+    font-size: 20px;
+  }
+  .kontakti-text3{
+    margin-left: 240px;
+margin-top: 20px;
+  }
+  .txtkontakt04{
+    text-decoration: none;
+    padding-left: 180px;
+    font-size: 20px;
+    color: black;
+  }
+  .txtkontakt05{
+    padding-left: 270px;
+    font-size: 20px;
+  }
+  .txtkontakt06{
+    padding-left: 420px;
+    font-size: 20px;
+  }
+  .txtkontakt07{
+    padding-left: 500px;
+    font-size: 20px;
+  }
+  .txtkontakt08{
+    padding-left: 405px;
+    font-size: 20px;
+  }
+  .txtkontakt09{
+    padding-left: 500px;
+    font-size: 20px;
+  }
+  .txtkontakt10{
+    padding-left: 340px;
+    font-size: 20px;
+  }
+  .gazz-img1{
+width: 100%;
+margin-bottom: 20px;
+  }
+  .txtkontakt22{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+  }
+.kontakti-text22{
+    margin-left: 600px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.karta{
+    margin-top: 20px;
+    margin-left: 240px;
+    margin-bottom: 20px;
+}
+
+
+.card {
+    width: 225px;
+    min-height: 350px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; 
+    border-radius: 4px;
+    transition: 0.2s;
+    position: relative;
+  }
+  
+
+  .card:hover {
+    box-shadow: 4px 8px 16px rgba(255, 102, 51, 0.2);
+  }
+  
+  .card__top {
+    flex: 0 0 220px; 
+    position: relative;
+    overflow: hidden; 
+  }
+  
+
+  .card__image {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .card__image > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; 
+    transition: 0.2s;
+  }
+  
+
+  .card__image:hover > img {
+    transform: scale(1.1);
+  }
+  
+  .card__label {
+    padding: 4px 8px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: red;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  .card__bottom {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto; 
+    padding: 10px;
+  }
+  
+  .card__prices {
+    display: flex;
+    margin-bottom: 10px;
+    flex: 0 0 50%; 
+  }
+  
+  .card__price::after {
+    content: "₽";
+    margin-left: 4px;
+    position: relative;
+  }
+  
+  .card__price--discount {
+    font-weight: 700;
+    font-size: 19px;
+    color: #414141;
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+  
+  .card__price--discount::before {
+    content: "Со скидкой";
+    font-weight: 400;
+    font-size: 13px;
+    color: #bfbfbf;
+  }
+  
+  .card__price--common {
+    font-weight: 400;
+    font-size: 17px;
+    color: #606060;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
+  }
+  
+  .card__price--common::before {
+    content: "Обычная";
+    font-weight: 400;
+    font-size: 13px;
+    color: #bfbfbf;
+  }
+  
+  .card__title {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 150%;
+    color: #414141;
+  }
+  
+  .card__title:hover {
+    color: rgb(0, 0, 0);
+  }
+  
+  .card__add {
+    display: block;
+    width: 100%;
+    font-weight: 400;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    border: 1px solid blue;
+    border-radius: 4px;
+    cursor: pointer; 
+    transition: 0.2s;
+    margin-top: auto; 
+  }
+  
+  .card__add:hover {
+    border: 1px solid blue;
+    background-color: blue;
+    color: #fff;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 225px);
+    width: 100%;
+    max-width: 1000px; 
+    justify-content: center;
+    justify-items: center; 
+    column-gap: 30px; 
+    row-gap: 40px; 
+    margin: 0 auto;
+  }
+  .slider-kat{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 225px);
+    width: 100%;
+    max-width: 1000px; 
+    justify-content: center;
+    justify-items: center; 
+    column-gap: 30px; 
+    row-gap: 40px; 
+    margin: 0 auto;
+  }
+  .card11 {
+    width: 225px;
+    min-height: 250px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; 
+    border-radius: 4px;
+    transition: 0.2s;
+    position: relative;
+  }
