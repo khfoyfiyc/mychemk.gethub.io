@@ -1,2 +1,0 @@
-# mychemk.gethub.io
-mychemk
